@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2><b><u>Simple Array Program:</u></b></h2>
+   
+<script>
+ let arrays=[1090,3,4,6,7,8,90,67,87,56,98,45,345,9,59,2,999,1,34444,55555,234567,87654,1234567,89898];
+ let max =arrays[0];
+ let min= arrays[0];
+ let avg=0;
+ let total ;
+
+
+for (let i=0;i<arrays.length;i++)
+{
+   
+    if (arrays[i]>max)
+    {
+      
+     max =arrays[i];
+    }
+}
+console.log(max);
+
+for (let i=0;i<arrays.length;i++)
+{                                           
+
+    if (arrays[i]<min)
+    {
+        min =arrays[i];
+    }
+    
+}
+console.log(min);
+for (let i=0;i<arrays.length;i++)
+{
+avg +=arrays[i];
+}
+  total=avg/arrays.length;
+  console.log("average of an array element  " + total );
+
+</script>
+</body>
+</html>
